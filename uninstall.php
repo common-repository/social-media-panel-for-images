@@ -1,0 +1,15 @@
+<?php 
+	if(!defined(WP_UNINSTALL_PLUGIN)){
+		delete_option('twitter');
+		delete_option('facebook');
+		delete_option('google');
+		delete_option('livejournal');
+		delete_option('youtube');
+		delete_option('vkontakte');
+		delete_option('LinkedIn');
+		delete_option('PicasaWebAlbums');
+		delete_option('Flickr');
+		delete_option('Pinterest');
+		delete_option('DeviantArt');
+	}	
+?>

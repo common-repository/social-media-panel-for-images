@@ -1,0 +1,97 @@
+.soc_panel {
+	position: absolute;
+	width: 100px;
+	display: table;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	transition-property: opacity;
+    transition-duration: 200s;
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+}
+.soc_panel>div {
+	display: table-cell;
+}
+.twitter{
+	height: 20px;
+	float: left;
+}
+.g-plus {
+	height: 20px;
+	float: left;
+}
+.facebook {
+	height: 20px;
+	float: left;
+}
+.livejournal{
+	height: 20px;
+	float: left;
+}
+.youtube{
+	height: 20px;
+	float: left;
+}
+.vkontakte{
+	height: 20px;
+	float: left;
+}
+.LinkedIn{
+	height: 20px;
+	float: left;
+}
+.PicasaWebAlbums{
+	height: 20px;
+	float: left;
+}
+.Flickr{
+	height: 20px;
+	float: left;
+}
+.Pinterest{
+	height: 20px;
+	float: left;
+}
+.DeviantArt{
+	height: 20px;
+	float: left;
+}
+div.soc_panel_wrapper {
+	position:relative;
+	display: table;
+}
+
+
+
+@keyframes soc_panel
+{
+from {opacity:0; }
+to {opacity:1;}
+}
+
+@-moz-keyframes soc_panel /* Firefox */
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-webkit-keyframes soc_panel/* Safari and Chrome */
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-o-keyframes soc_panel /* Opera */
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+
+
+
